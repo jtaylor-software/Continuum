@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F21206125806FA800ECDF37 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21206025806FA800ECDF37 /* PostListTableViewController.swift */; };
+		8F212065258071A700ECDF37 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F212064258071A700ECDF37 /* PostDetailTableViewController.swift */; };
+		8F2120682580725D00ECDF37 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2120672580725D00ECDF37 /* AddPostTableViewController.swift */; };
+		8F21206C258073F800ECDF37 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21206B258073F800ECDF37 /* Post.swift */; };
+		8F212070258075E200ECDF37 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21206F258075E200ECDF37 /* Comment.swift */; };
+		8F2120752580776100ECDF37 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2120742580776100ECDF37 /* PostController.swift */; };
+		8F21207A258078AF00ECDF37 /* PostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F212079258078AF00ECDF37 /* PostError.swift */; };
+		8F21207F25807C4000ECDF37 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21207E25807C4000ECDF37 /* PostTableViewCell.swift */; };
+		8F21208325808B0C00ECDF37 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21208225808B0C00ECDF37 /* DateExtension.swift */; };
 		F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F99C382211F96400D13C4C /* AppDelegate.swift */; };
 		F7F99C3E2211F96400D13C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3C2211F96400D13C4C /* Main.storyboard */; };
 		F7F99C402211F96600D13C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F99C3F2211F96600D13C4C /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F21206025806FA800ECDF37 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
+		8F212064258071A700ECDF37 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		8F2120672580725D00ECDF37 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
+		8F21206B258073F800ECDF37 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		8F21206F258075E200ECDF37 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		8F2120742580776100ECDF37 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		8F212079258078AF00ECDF37 /* PostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostError.swift; sourceTree = "<group>"; };
+		8F21207E25807C4000ECDF37 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		8F21208225808B0C00ECDF37 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		F7F99C352211F96400D13C4C /* Continuum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Continuum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F99C382211F96400D13C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F99C3D2211F96400D13C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +51,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F21205C25806D1A00ECDF37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
+				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
+				F7F99C442211F96600D13C4C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F21205D25806D3D00ECDF37 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7F99C3C2211F96400D13C4C /* Main.storyboard */,
+				F7F99C412211F96600D13C4C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8F21205F25806F7C00ECDF37 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8F21206025806FA800ECDF37 /* PostListTableViewController.swift */,
+				8F212064258071A700ECDF37 /* PostDetailTableViewController.swift */,
+				8F2120672580725D00ECDF37 /* AddPostTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8F21206A2580729900ECDF37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F21206B258073F800ECDF37 /* Post.swift */,
+				8F21206F258075E200ECDF37 /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F2120732580773C00ECDF37 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F2120742580776100ECDF37 /* PostController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		8F2120782580789300ECDF37 /* Helpers+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F212079258078AF00ECDF37 /* PostError.swift */,
+				8F21208225808B0C00ECDF37 /* DateExtension.swift */,
+			);
+			path = "Helpers+Extensions";
+			sourceTree = "<group>";
+		};
+		8F21207D25807C0D00ECDF37 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F21207E25807C4000ECDF37 /* PostTableViewCell.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		F7F99C2C2211F96400D13C4C = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +133,13 @@
 		F7F99C372211F96400D13C4C /* Continuum */ = {
 			isa = PBXGroup;
 			children = (
-				F7F99C382211F96400D13C4C /* AppDelegate.swift */,
-				F7F99C3C2211F96400D13C4C /* Main.storyboard */,
-				F7F99C3F2211F96600D13C4C /* Assets.xcassets */,
-				F7F99C412211F96600D13C4C /* LaunchScreen.storyboard */,
-				F7F99C442211F96600D13C4C /* Info.plist */,
+				8F21207D25807C0D00ECDF37 /* Custom Views */,
+				8F2120782580789300ECDF37 /* Helpers+Extensions */,
+				8F2120732580773C00ECDF37 /* Model Controller */,
+				8F21206A2580729900ECDF37 /* Models */,
+				8F21205F25806F7C00ECDF37 /* View Controllers */,
+				8F21205D25806D3D00ECDF37 /* Storyboards */,
+				8F21205C25806D1A00ECDF37 /* Resources */,
 			);
 			path = Continuum;
 			sourceTree = "<group>";
@@ -133,6 +216,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F99C392211F96400D13C4C /* AppDelegate.swift in Sources */,
+				8F21208325808B0C00ECDF37 /* DateExtension.swift in Sources */,
+				8F212070258075E200ECDF37 /* Comment.swift in Sources */,
+				8F21207A258078AF00ECDF37 /* PostError.swift in Sources */,
+				8F21206125806FA800ECDF37 /* PostListTableViewController.swift in Sources */,
+				8F2120682580725D00ECDF37 /* AddPostTableViewController.swift in Sources */,
+				8F2120752580776100ECDF37 /* PostController.swift in Sources */,
+				8F212065258071A700ECDF37 /* PostDetailTableViewController.swift in Sources */,
+				8F21206C258073F800ECDF37 /* Post.swift in Sources */,
+				8F21207F25807C4000ECDF37 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,13 +371,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
-				INFOPLIST_FILE = Continuum/Info.plist;
+				DEVELOPMENT_TEAM = H5MJHNUR7S;
+				INFOPLIST_FILE = Continuum/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytes-random.Continuum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,13 +389,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 77U2457882;
-				INFOPLIST_FILE = Continuum/Info.plist;
+				DEVELOPMENT_TEAM = H5MJHNUR7S;
+				INFOPLIST_FILE = Continuum/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.trevoradcock.Continuum;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bytes-random.Continuum";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
