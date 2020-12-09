@@ -34,3 +34,9 @@ class Post {
     
     
 } // End of Class
+
+extension Post: SearchableRecord {
+    func matches(searchTerm: String) -> Bool {
+        return caption.lowercased().contains(searchTerm.lowercased())
+    }
+} // End of Post extension
