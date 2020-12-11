@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1F1EF92582EF7400B4E258 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F1EF82582EF7400B4E258 /* AlertExtension.swift */; };
 		8F21206125806FA800ECDF37 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F21206025806FA800ECDF37 /* PostListTableViewController.swift */; };
 		8F212065258071A700ECDF37 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F212064258071A700ECDF37 /* PostDetailTableViewController.swift */; };
 		8F2120682580725D00ECDF37 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2120672580725D00ECDF37 /* AddPostTableViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F1F1EF82582EF7400B4E258 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
 		8F21206025806FA800ECDF37 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
 		8F212064258071A700ECDF37 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
 		8F2120672580725D00ECDF37 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			children = (
 				8F212079258078AF00ECDF37 /* PostError.swift */,
 				8F21208225808B0C00ECDF37 /* DateExtension.swift */,
+				8F1F1EF82582EF7400B4E258 /* AlertExtension.swift */,
 			);
 			path = "Helpers+Extensions";
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				8F21206125806FA800ECDF37 /* PostListTableViewController.swift in Sources */,
 				8F2120682580725D00ECDF37 /* AddPostTableViewController.swift in Sources */,
 				8F353A2E25818CCF00C24B81 /* PhotoSelectorViewController.swift in Sources */,
+				8F1F1EF92582EF7400B4E258 /* AlertExtension.swift in Sources */,
 				8F2120752580776100ECDF37 /* PostController.swift in Sources */,
 				8F212065258071A700ECDF37 /* PostDetailTableViewController.swift in Sources */,
 				8F21206C258073F800ECDF37 /* Post.swift in Sources */,
